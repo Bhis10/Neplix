@@ -14,6 +14,7 @@
 </head>
 <body>
   <header>
+    <!--Start of Header section-->
    <div class="bg-img">
    <div class="container-nav">
       <div class="logo">
@@ -25,8 +26,8 @@
             <ul class="right hide-on-med-and-down">
               <li><a href="#">Home</a></li>
               <li><a href="#">Genre</a></li>
-              <li><a href="#">Movies</a></li>
-              <li><a href="#">TvShows</a></li>
+              <li class="movie"data-tab-target="#movies"><a href="#movies">Movies</a></li>
+              <li class="tv"data-tab-target="#tvshows"><a href="#tvshows">TvShows</a></li>
             </ul>
           </div>
 
@@ -45,6 +46,10 @@
      </div>
   </div>
   </header>
+  <!--End of Header section-->
+  
+  
+  <!--Start of Main section-->
   <main>
 
       <div class="hero">
@@ -419,9 +424,7 @@
      $('.sidenav').sidenav();
      $('.tabs').tabs();
    });
-   
-   
- </script>
+  </script>
 
 
 </body>
