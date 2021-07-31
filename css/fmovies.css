@@ -249,9 +249,7 @@ color:white;
     align-items: center;
     color:rgb(207, 207, 207);
 }
-@media only screen and (max-width:700px)
-{
-}
+
 .trending ul{
     display: flex;
     align-items: center;
@@ -292,15 +290,6 @@ color:white;
   margin-top: 40px;
 
 }
-@media only screen and (max-width:700px)
-{ .movie-container{
-    padding: 0px 2px;
-    display: grid;
-    place-content: center;
-
-}
-
-}
 .movie-container img{
     height: 200px;
     width:180px;
@@ -331,13 +320,6 @@ footer{
     margin-top: 30px;
     margin-left: 30px;
 }
-@media only screen and (max-width:700px)
-{ .logo-footer{
-    margin-left: 2px;
-    margin-top: 6px;
-}
-}
-
 .logo-footer img{
 
     height: 50px;
@@ -355,25 +337,6 @@ footer{
 .footer-text p{
     max-width: 750px;
 }
-@media only screen and (max-width:700px)
-{ .footer-text{
-    display: none;
-
-}
-}
-.links-footer{
-    display: flex;
-    margin-left: 50px;
-    align-items: center;
-    font-size: 10px;
-}
-@media only screen and (max-width:700px)
-{ .links-footer{
-    margin-left: 20px;
-
-}
-}
-
 .link{
     color:rgb(207, 207, 207);
     margin-right: 50px;
@@ -393,26 +356,47 @@ footer{
 .social-footer .icon:hover{
     cursor: pointer;
 }
+.links-footer{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    font-size: 10px;
+}
+@media only screen and (max-width:700px){
+    .movie-container{
+    padding: 0px 2px;
+    display: grid;
+    place-content: center;
+}
+.logo-footer{
+    margin-left: 2px;
+    margin-top: 6px;
+}
+.footer-text{
+    display: none;
 
+}
+.links-footer{
+    margin-left: 20px;
 
-@media only screen and (max-width:700px)
-{
-    .icon{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .icon small{
-        display:none;
-    }
-    .icon i {
-        display: flex;
-        align-items: center;
-        padding-right: 0px;
-    }
-    .info{
-      margin-left: 5px;
-  }
-  .trending{
-      margin-left: 5px;
-  }
+}
+.icon{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.icon small{
+    display:none;
+}
+.icon i {
+    display: flex;
+    align-items: center;
+    padding-right: 0px;
+}
+.info{
+  margin-left: 5px;
+}
+.trending{
+  margin-left: 5px;
+}
+
 }
