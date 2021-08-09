@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
+
 body{
     background-color: rgb(27, 27, 27);
 }
@@ -17,6 +17,7 @@ display:flex;
 align-items: center;
 justify-content: space-evenly;
 }
+
 .bg-img {
     background-image:url("../Pic/mortal2.jpeg");
     height: 580px;
@@ -27,14 +28,17 @@ justify-content: space-evenly;
     position: relative;
 
   }
+
   .nav .navbar{
    width: 100%;
   }
+
   .navbar{
    background-color: transparent;
    box-shadow: none;
    width: 100%;
   }
+
   .nav-wrapper{
     display: flex;
     align-items: center;
@@ -44,14 +48,17 @@ justify-content: space-evenly;
     color:grey;
     box-shadow: none;
 }
+
 ul.sidenav{
     background-color: rgba(22, 21, 21, 0.979);
     color: rgb(121, 118, 118);
 }
+
 ul.sidenav li a{
     color:#00acc1;
     transition: transform .2s;
 }
+
 ul.sidenav li a:hover{
     transform: scale(1.1);
 }
@@ -72,6 +79,7 @@ ul.sidenav li a:hover{
     align-items: center;
     justify-content: center;
 }
+
 .logo img{
     height:40px;
     width:150px;
@@ -82,12 +90,14 @@ ul.sidenav li a:hover{
     justify-content: flex-end;
     align-items: center;
 }
+
 .login h6{
     color:white;
     margin-right: 10px;
     margin-top:10px;
 
 }
+
 .login i{
     color: white;
     font-size: 30px;
@@ -102,19 +112,23 @@ ul.sidenav li a:hover{
     background: none;
     margin-left: 20px;
 }
+
 .hero h4{
     background: none;
     color:white;
 }
+
 .hero h6{
     background: none;
     color: #00acc1;
 }
+
 .hero small{
     background: none;
     color:white;
     display: block;
 }
+
 .hero button{
     margin-top: 10px;
     background: none;
@@ -123,6 +137,7 @@ ul.sidenav li a:hover{
     border:1px solid #00acc1;
     color:#00acc1 ;
 }
+
 .icon{
     display: flex;
     margin-top: 30px;
@@ -133,7 +148,6 @@ ul.sidenav li a:hover{
 
 .icon:hover{
     cursor: pointer;
-
 }
 
 .facebook{
@@ -141,30 +155,33 @@ ul.sidenav li a:hover{
     background-color: #3b5998;
     margin-right: 3px;
     padding-left: 8px;
-
 }
+
 .facebook i{
     color:white;
-
 }
+
 .facebook small{
     color:white;
     padding-right: 3px;
 }
+
 .twitter{
     border:1px solid #1da1f2;
     background-color: #1da1f2;
     margin-right: 3px;
     padding-left: 8px;
 }
+
 .twitter i{
     color:white;
-
 }
+
 .twitter small{
     color:white;
     padding-right: 3px;
 }
+
 .whatsapp{
     border:1px solid #4dc246;
     background-color: #4dc246;
@@ -172,56 +189,66 @@ ul.sidenav li a:hover{
     margin-right: 3px;
     padding-left: 8px;
 }
+
 .whatsapp i{
-color:white;
+  color:white;
 }
+
 
 .whatsapp small{
     color:white;
     padding-right: 3px;
 }
+
 .pinterest{
     border:1px solid #cb2027;
     background-color: #cb2027;
     margin-right: 3px;
     padding-left: 8px;
 }
+
 .pinterest i{
     color:white;
 }
+
 .pinterest small{
     color:white;
     padding-right: 3px;
 }
+
 .telegram{
     border:1px solid #0088cc;
     background-color: #0088cc;
     margin-right: 3px;
     padding-left: 8px;
 }
+
 .telegram i{
     color:white;
     background-color: transparent;
-
 }
+
 .telegram small{
     color:white;
     padding-right: 3px;
 }
+
 .email{
     border:1px solid #848484;
     background-color: #848484;
     margin-right: 3px;
     padding-left: 8px;
 }
+
 .email i{
     color:white;
-
 }
+
 .email small{
     color:white;
     padding-right: 3px;
 }
+
 .more{
     border:1px solid #ff6550;
     background-color: #ff6550;
@@ -231,12 +258,13 @@ color:white;
 .more i{
     color:white;
     background-color: transparent;
-
 }
+
 .more small{
     color:white;
     padding-right: 3px;
 }
+
 .info{
     margin-top: 40px;
     margin-left: 65px;
@@ -267,34 +295,37 @@ color:white;
     height: 30px;
     padding:0px 10px;
 }
+
 .trending li:hover{
     cursor: pointer;
     color:grey;
 }
+
 [data-tab-content]{
     display: none;
 
 }
+
 .active[data-tab-content]{
     display:grid;
 }
 
 
 .movie-container{
-
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(100px,180px));
   gap: 10px 5px;
   color:rgb(207, 207, 207);
   padding:0px 65px;
   margin-top: 40px;
-
 }
+
 .movie-container img{
     height: 200px;
     width:180px;
 
 }
+
 .movie-container img:hover{
     cursor: pointer;
 }
@@ -304,22 +335,27 @@ color:white;
     flex-direction: row;
     justify-content:space-between;
 }
+
 .movie-desp small:last-child{
     background-color: #00acc1;
     border: 1px solid #00acc1;
     color: white;
 }
+
 footer{
     margin-top: 30px;
     background-color: rgb(7, 6, 6);
 }
+
 .foot{
     display: flex;
 }
+
 .logo-footer{
     margin-top: 30px;
     margin-left: 30px;
 }
+
 .logo-footer img{
 
     height: 50px;
@@ -337,31 +373,43 @@ footer{
 .footer-text p{
     max-width: 750px;
 }
+
 .link{
     color:rgb(207, 207, 207);
     margin-right: 50px;
 }
+
 .link h6{
     display: flex;
     justify-content: center;
     color:rgb(207, 207, 207);
 }
+
 .link i {
     font-size: 17px;
 }
+
 .link li{
     display: flex;
     justify-content: center;
 }
+
 .social-footer .icon:hover{
     cursor: pointer;
 }
+
 .links-footer{
     display: flex;
     margin-left: 50px;
     align-items: center;
     font-size: 10px;
 }
+
+
+
+
+
+
 @media only screen and (max-width:700px){
     .movie-container{
     padding: 0px 2px;
