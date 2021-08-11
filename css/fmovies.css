@@ -295,6 +295,17 @@ ul.sidenav li a:hover{
     height: 30px;
     padding:0px 10px;
 }
+.view{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.view a{
+    border: 1px solid #00acc1;
+    padding:10px 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 .trending li:hover{
     cursor: pointer;
