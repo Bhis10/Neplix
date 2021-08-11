@@ -96,7 +96,10 @@ ul.sidenav li a:hover{
     color:white;
     margin-right: 10px;
     margin-top:10px;
-
+}
+.login h6:hover{
+    color:grey;
+    cursor: pointer;
 }
 
 .login i{
@@ -299,7 +302,7 @@ ul.sidenav li a:hover{
 .view{
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 6vh;
 }
 .view a{
     border: 1px solid #00acc1;
@@ -341,9 +344,26 @@ ul.sidenav li a:hover{
     width:180px;
 
 }
+.image{
+    position: relative;
+}
+.image:hover .play{
+    display: block;
+    cursor: pointer;
+}
+.play{
+    position: absolute;
+    top:35%;
+    left:47%;
+    font-size: 2.5rem;
+    display: none;
+    
+}
+
 
 .movie-container img:hover{
     cursor: pointer;
+    filter: brightness(85%);
 }
 
 .movie-desp{
