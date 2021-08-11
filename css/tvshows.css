@@ -446,7 +446,7 @@ footer{
 
 @media only screen and (max-width:700px){
     .movie-container{
-    padding: 0px 2px;
+   
     display: grid;
     place-content: center;
 }
