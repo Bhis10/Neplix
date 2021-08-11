@@ -19,7 +19,7 @@ justify-content: space-evenly;
 }
 
 .bg-img {
-    background-image:url("../Pic/mortal2.jpeg");
+    background-image:url("../Pic/robot.jpg");
     height: 580px;
     width:100%;
     background-position: center center;
@@ -306,10 +306,6 @@ ul.sidenav li a:hover{
     padding:10px 20px;
     text-decoration: none;
     color: whitesmoke;
-}
-.view a:hover{
-    background-color:#00acc1 ;
-    
 }
 
 .trending li:hover{
